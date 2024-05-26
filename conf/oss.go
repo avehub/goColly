@@ -1,7 +1,14 @@
 package conf
 
 var ossConf = map[string]map[string]string{
-	// 需要读取配置文件
+	"default": {
+		// 配置信息
+
+	},
+	"prod": {
+		// 配置信息
+
+	},
 }
 
 func GetAllOssConf() map[string]map[string]string {

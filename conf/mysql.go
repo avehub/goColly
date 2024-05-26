@@ -1,7 +1,9 @@
 package conf
 
 var mysqlConf = map[string]map[string]string{
-	// 配置文件
+	"default": {
+		// 配置信息
+	},
 }
 
 func GetAllMysqlConf() map[string]map[string]string {
